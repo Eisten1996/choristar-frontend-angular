@@ -1,0 +1,8 @@
+<div class="menu">
+    <div *ngFor="let item of menuItems" class="menu_item_button" [routerLink]="item.router">
+       <div class="menu_item_label">
+        <mat-icon [inline]="true" class="menu_item_icon">{{item.icon}}</mat-icon> 
+        <span>{{item.name}}</span>
+       </div>
+    </div>
+</div>

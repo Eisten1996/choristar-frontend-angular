@@ -1,0 +1,31 @@
+@import "src/styles.color.scss";
+
+.section_user {
+    background-color: $color_primary-01;
+    height: 191px;
+    padding: 25px 15px 25px 15px;
+}
+
+.section_image_profile {
+    margin-top: 15px;
+}
+
+.image_profile {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.section_username {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:white;
+}
+
+.section_docnumber {
+    margin-bottom: 25px;
+    color:white;
+    font-size: 15px;
+}
